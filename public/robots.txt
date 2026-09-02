@@ -1,0 +1,6 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://portfolio-phi-indol-46.vercel.app/sitemap.xml

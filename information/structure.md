@@ -1,0 +1,167 @@
+This is the folder structure of the whole application
+
+app
+  api
+    contact
+      route.ts
+  favicon.ico
+  globals.css
+  layout.tsx
+  manifest.ts
+  (root)
+    contact
+      page.tsx
+    education
+      page.tsx
+    experience
+      [expId]
+        page.tsx
+      page.tsx
+    layout.tsx
+    page.tsx
+    projects
+      page.tsx
+      [projectId]
+        page.tsx
+    resume
+      page.tsx
+    skills
+      page.tsx
+  sitemap.ts
+assets
+  fonts
+    CalSans-SemiBold.ttf
+    CalSans-SemiBold.woff
+    CalSans-SemiBold.woff2
+    Inter-Bold.ttf
+    Inter-Regular.ttf
+components
+  common
+    analytics.tsx
+    animated-link.tsx
+    animated-page-transition.tsx
+    animated-section.tsx
+    animated-text.tsx
+    client-page-wrapper.tsx
+    icons.tsx
+    main-nav.tsx
+    mobile-nav.tsx
+    mode-toggle.tsx
+    page-container.tsx
+    page-header.tsx
+    scroll-animation.tsx
+    site-footer.tsx
+    theme-provider.tsx
+  contact
+    contact-info-card.tsx
+  experience
+    experience-card.tsx
+    timeline.tsx
+  forms
+    contact-form.tsx
+components.json
+  modals
+    custom-modal.tsx
+  projects
+    project-card.tsx
+    project-description.tsx
+  skills
+    rating.tsx
+    skills-card.tsx
+  ui
+    accordion.tsx
+    button.tsx
+    card.tsx
+    chip-container.tsx
+    chip.tsx
+    custom-tooltip.tsx
+    dialog.tsx
+    dropdown-menu.tsx
+    form.tsx
+    input.tsx
+    label.tsx
+    modal.tsx
+    responsive-tabs.tsx
+    tabs.tsx
+    textarea.tsx
+    toaster.tsx
+    toast.tsx
+    tooltip.tsx
+    use-toast.ts
+config
+  constants.ts
+  education.ts
+  experience.ts
+  pages.ts
+  projects.ts
+  routes.ts
+  site.ts
+  skills.ts
+  socials.ts
+.env.copy
+eslint.config.mjs
+.gitignore
+hooks
+  use-lock-body.ts
+  use-modal-store.ts
+information
+  overview.md
+  structure.md
+lib
+  utils.ts
+LICENSE
+next.config.js
+next-env.d.ts
+package.json
+package-lock.json
+postcss.config.js
+.prettierrc
+providers
+  animation-provider.tsx
+  modal-provider.tsx
+public
+  experience
+    almindhar-logo.png
+    nehos-logo.png
+    pixelium-logo.png
+  logo.png
+  next.svg
+  og-image.png
+  profile-img.jpg
+  projects
+    chess-multiplayer
+      cover.png
+      logo.png
+    foodfrenzy
+      cover.png
+      logo.png
+    gron
+      cover.png
+      logo.png
+    jfs
+      cover.png
+      logo.png
+    localira
+      cover.png
+      logo.png
+    payday-takaful
+      cover.png
+      logo.png
+    school-management
+      cover.png
+      logo.png
+    unetp
+      cover.png
+      logo.png
+    vivitools
+      cover.png
+      logo.png
+    voice2work
+      cover.png
+      logo.png
+  robots.txt
+  vercel.svg
+README.md
+tailwind.config.js
+tsconfig.json
+tsconfig.tsbuildinfo
