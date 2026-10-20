@@ -48,7 +48,7 @@ All site content lives in [`config/`](config/):
 - `socials.ts` — footer links
 - `routes.ts` / `pages.ts` — navigation and page titles
 
-Images live in [`public/`](public/): `profile-img.jpeg`, `og-image.png`, `logo.png`, the certificate scans, plus `projects/` and `experience/` logos.
+Images live in [`public/`](public/): `profile-img.png`, `og-image.png`, `logo.png`, the certificate scans, plus `projects/` and `experience/` logos.
 
 The resume PDF lives at `public/resume/` and is referenced by `siteConfig.resumeFile`.
 
